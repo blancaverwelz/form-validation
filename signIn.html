@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="signIn-style.css">
+    <script src="signIn-script.js"></script>
+    <title>Sign-in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="img-with-text" style="display: inline-block;">
+                <img src="./img/front.png"/><br></br>
+                <p id="loginToContinue">Login</p>
+                <p id="loginToContinue2"">to continue to Ballers Ground</p>
+            </div>
+            <form id="form_id" method="post" name="loginform" action="./sucess.html">
+                <label>User Name:</label>
+                <input type="text" name="username" id="username"/>
+                <label>Password</label>
+                <input type="password" name="password" id="password"/>
+                <input type="button" value="Login" id="submit" onclick="validate()"/>
+            </form>
+        </div>  
+    </div>
+        <div id="loginNote">
+            <span><b class="note">Note: </b>Use the following username and password for this demo. 
+         <br/>
+         <br/>
+            <class="valid">User Name: UniqueUserName1 
+         <br/>
+            Password: difficultPassword1</span>
+        </div>
+</body>
+</html>

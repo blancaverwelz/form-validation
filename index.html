@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <form id="form" action="./success.html" method="GET">
+        
+        <div class="container">
+
+            <div id="error"></div>
+
+            <div class="main">
+                <span>
+                    <div class="validForm" style="margin: 40px">
+                       <p class="logo">Ballers Ground</p>
+                       <p id="createAccount" >Create Your Account</p>
+                        
+                       <span>
+                         <div>
+                            <input type="text" name="firstName" id="firstName" placeholder="First Name" >
+                            &nbsp &nbsp &nbsp
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name" > 
+                         </div>
+                        </span>
+
+                        <br></br>
+
+                            <input type="text" id="userName" name="userName" placeholder="Username" >
+                            <p style="margin-top: 2px;"> You can use letters, numbers & periods</p>
+
+                        <br></br>
+
+                            <input type="password" name="password" id="password" placeholder="Password">
+                            &nbsp &nbsp &nbsp
+                            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                            <p style="margin-top: 2px;">Use 6 or more characters with a mix of letters, numbers & symbols</p>
+
+                            <div id="sign">
+                                <button class="btn signIn" onclick="location.href = './signIn.html';">Sign in instead</button>
+                            </div>
+
+                        <button type="submit">Submit</button>
+                    </div>
+                </span>
+            </div>
+
+            <span>
+                <div class="img-with-text" style="display: inline-block;">
+                    <img src="./img/front.png" alt="moto"><br></br>
+                    <p id="moto" style="margin-bottom: 90px;">Your social network<br> for basketball <br> brotherhood</p>
+                </div>
+            </span>    
+
+            <div>
+                <ul class="footer">
+                    <li><p a href="#help">Help</p></li>
+                    <li><p a href="#Privacy">Privacy</h6></li>
+                    <li><p a href="#Terms">Terms</h6></li>
+                </ul>
+            </div>   
+        </div>    
+    </form>
+    
+</body>
+</html>

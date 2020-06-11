@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+.container {
+    width: 750px;
+    height: 520px;
+    border: solid white .5px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 150px
+}
+
+.main {
+    width: 480px;
+    height: 480px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.logo {
+    color: seashell;
+    font-size: 2rem;
+    padding-top: 40px;
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#createAccount {
+    color: rgb(252, 164, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+input[type=text] {
+    border: .5px solid gray;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+input[type=text]:hover {
+    outline: solid  2px;
+    outline-color: rgb(252, 164, 0);
+}
+
+
+input[name="userName"] {
+    width: 392.5px;
+    border: .5px solid gray;
+    border-radius: 3px;
+    padding: 3px 6px;
+    margin-top: 15px;
+}
+
+input[type=password] {
+    border: .5px solid gray;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+input[type=password]:hover {
+    outline: solid  2px;
+    outline-color: rgb(252, 164, 0);
+}
+
+button {
+    padding: 6px 14px;
+    border-radius: 5px;
+    background-color: rgb(252, 164, 0);
+    border: none;
+    color: white;
+    margin-top: 19px;
+    margin-left: 323px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(250, 193, 86);
+}
+
+p {
+    color: white;
+    font-size: 13px;
+}
+
+
+div.sign {
+    display: relative;
+}
+
+.btn.signIn {
+    color: rgb(252, 164, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 46px;
+    right: 420px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    width: 300px;
+    outline: none;
+}
+
+.btn.signIn:hover {
+    color: rgb(250, 193, 86);;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border: solid white 1px;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    margin-left: 30px;
+}
+
+#moto {
+    text-transform: uppercase;
+    color: seashell;
+    font-size: 13px;
+    line-height: 1.7;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -90px;
+    text-align: center;
+}
+
+#error {
+    text-align: center;
+    color: rgb(223, 68, 68);
+    position: relative;
+    top: -45px
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    width: 20%;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    bottom: 70px;
+}
+
+.footer li {
+    float: left;
+    cursor: pointer;
+    padding-right: 10px;
+
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+h1 {
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    color: rgb(252, 164, 0);
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: white;
+    letter-spacing: 1px;
+}
